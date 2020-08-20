@@ -4,10 +4,18 @@ algo:
 param_index:
   - n_trees: 200
   - n_trees: 400
+  - n_trees: 600
+  - n_trees: 800
 
 param_query:
   search_k:
+    - 10
+    - 50
     - 100
     - 200
     - 400
     - 800
+    - 1600
+    - 3200
+    - 6400
+    - 10000

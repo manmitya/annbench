@@ -6,6 +6,14 @@ param_index:
     nlist: 100
   - M: 16
     nlist: 100
+  - M: 16
+    nlist: 4096
+  - M: 32
+    nlist: 2048
+  - M: 32
+    nlist: 4096
+  - M: 64
+    nlist: 4096
 
 param_query:
   nprobe:
@@ -14,3 +22,4 @@ param_query:
     - 4
     - 8
     - 16
+    - 100

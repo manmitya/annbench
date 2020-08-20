@@ -6,6 +6,12 @@ param_index:
     M: 4
   - ef_construction: 200
     M: 32
+  - ef_construction: 800
+    M: 32
+  - ef_construction: 800
+    M: 64
+  - ef_construction: 1600
+    M: 64
 
 param_query:
   ef:
@@ -13,4 +19,5 @@ param_query:
     - 4
     - 16
     - 64
+    - 200
     - 256
